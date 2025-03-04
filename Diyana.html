@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">local food</a>
+    </div>
+      <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Map</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Historical sites and tourist attractions</a>
+    </div>
+  </div>
+</div>
+
+
+  <div class="w3-panel">
+
+    <h1><b>Yala city</b></h1>
+    <p>Yala, the beautiful city of the southern border</p>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="photo/ผัง.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">ผังเมืองจังหวัดยะลา</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="photo/ตลาดเก่า.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">ตลาดเก่า/กือดาบูโระ</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="photo/เบตง2.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">ทะเลหมอกอัยย์เวงเบตง</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+ <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">อาหารพื้นถิ่นจังหวัดยะลา</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/ซอเลาะลาดอ.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>ซอเลาะลาดอ</h3>
+          <p class="w3-opacity">ซอเลาะลาดอ แปลว่าพริกยัดไส้ เป็นอาหารพื้นถิ่นของทางภาคใต้ตอนล่าง เกิดจากการนำวัตถุดิบประจำถิ่นที่หาได้ง่ายอย่าง มะพร้าว พริกหยวก และปลาทู มาประกอบอาหารที่ให้รสชาตที่มีเอกลักษณ์เฉพาะตัว วิธีทำ ซอเลาะลาดอ เริ่มจากการไส้โดยนำเนื้อปลาทูนึ่งโขลกรวมกับ หัวแดง กระเทีนม พริกไทย และเนื้อมะพร้าวขูด จนเป็นเนื้อเดียวกัน จากนั้นนำมานวดกับไข่ไก่จนเข้ากันดีอีกครั้งหนึ่ง นำพริกกยวกมาผ่ากลางเอาเมล็ดออกล้างให้สะอาดแล้วนำไส้ที่ทำไว้ ยัดใส่ตรงกลางพริกหยวกให้แน่น น้ำกะทิตั้งไฟจนเดือดปรุงรสด้วยน้ำตาลมะพร้าวและเกลือ นำพริกหยวกที่ยัดไส้ไว้ใส่ลงในน้ำกะทิเคี่ยวจนพริกสุกใส เป็นอันเสร็จ บางบ้านอาจใช้วิธีน้ำพริกหยวกที่ยัดไส้แล้วนำไปย่างหรือทอด แทนการเคี่ยวในน้ำกะทิก็ได้</p>
+          <p>อ้างอิงจาก</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/นาซิดาแฆ.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>นาซิดาแฆ</h3>
+          <p class="w3-opacity">นาซิดาแฆ สุดยอดอหารเช้าที่ขึ้นชื่อของชาวไทยมุสลิม มักเรียกความสนใจจากนักชิมอาหารได้เสมอ "นาซิดาแฆ" เป็นอาหารคาวชนิดหนึ่ง มีลักษณะคล้ายข้าวมันของไทย ใช้ข้าวสามชนิดคือข้าวเหนียว ข้าวเจ้า และข้าวซ้อมมือ นิยมทำเลี้ยงรับรองแขก สำหรับวิธีการกินมันทานคู่กับแกงกะหรี่ แกงไก่ แกงเนื้อ และแกงปลาโอสดๆ แกงไข่ เป็นแกงกะทิที่มีส่วนผสมของเครื่องเทศกลิ่นหอม ชวนน่ารับประทาน</p>
+          <p>อ้างอิงจาก</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/ละแซ.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>ละแซ</h3>
+          <p class="w3-opacity">ละแซมีลักษณะคล้ายกับเส้นใหญ่ที่นำมาม้วนและตัดตามแนวขวาง เพื่อให้สามารถรับประทานได้พอดีคำ ทานคู่กับน้ำแกงปลา ซึ่งมีรสชาติใกล้เคียงกับน้ำยาในขนมจีน ราดลงไปบนเส้นเเละใส่ผักตามความชอบ เช่น ถั่วงอก แตงกวาซอย หรือ ผักบุ้งหั่น ละเเซจึงเป็นเมนูที่ผสมผสานระหว่างก๋วยเตี๋ยวและขนมจีนน้ำยาเข้าด้วยกัน ต้นกำเนิดของเมนูละเเซ มาจากรัฐกลันตัน และตรังกานุ ประเทศมาเลเซีย มีอาณาเขตติดต่อกับไทย ทำให้ได้รับอิทธิพลเข้ามาและรับประทานกันอย่างแพร่หลายในหลายจังหวัดบริเวณนั้น โดยส่วนมากเเล้วละเเซจะรับประทานเป็นอาหารเช้า หรือ ในงานเทศกาลต่างๆ. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3></h3>
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">แผนที่จังหวัดยะลา</span>
+    </div>
+  </div>
+    <hr>
+    <div class="w3-center">
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1015518.9932168481!2d101.22184349999999!3d6.148013249999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b37430fbebefed%3A0xffc5bf81e0dee2e5!2z4Lii4Liw4Lil4Liy!5e0!3m2!1sth!2sth!4v1697883402047!5m2!1sth!2sth"
+  width="100%"
+  height="450"
+  frameborder="0"
+  style="border:0;"
+></iframe></div>
+
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">โบราณสถานและแหล่งท่องเที่ยว</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/77.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>เขื่อนบางลาง</h3>
+          <p class="w3-opacity">เขื่อนบางลาง ตั้งอยู่ใน ตำบลเขื่อนบางลาง อำเภอบันนังสตา จังหวัดยะลา เป็นเขื่อนที่สร้างขึ้นมาเพื่อกั้นกลางแม่น้ำปัตตานีนั่นเอง ซึ่งที่นี่เป็นส่วนหนึ่งของโครงการไฟฟ้าพลังน้ำเอนกประสงค์แห่งแรกในภาคใต้สามารถผลิตกระแสไฟฟ้าได้กว่า72,000 กิโลวัตต์ นอกจากนี้อ่างเก็บน้ำเหนือเขื่อนบางลาง ยังมีประโยชน์ไว้สำหรับในพื้นที่เพาะปลูกของจังหวัดยะลาและปัตตานีด้วยและยังมีการนำมาผลิตไฟฟ้ารวมถึงช่วยบรรเทาน้ำท่วมในบริเวณตอนล่างของลุ่มน้ำปัตตานีได้เป็นอย่างดี อีกทั้งเป็นแหล่งประมงนํ้าจืดที่สําคัญในภาคใต้อีกด้วยที่นี่มีวิวสวยงามอย่างมากเพราะอุดมสมบูรณ์ไปด้วยธรรมชาติโดยเราสามารถล่องแพหรือนั่งเรือชมวิวของป่าฮาลาที่อยู่ใกล้เขื่อนและชมเกาะแก่งเหนือเขื่อนบางลางได้แบบชิลๆ ได้สัมผัสธรรมชาติของป่าฮาลา ที่อุดมไปด้วยพันธุ์ไม้แปลกๆ</p>
+        </div>
+      </div>
+    </div>
+
+     <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/สีลีปัต.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>ฆูนุงซีลีปัต</h3>
+          <p class="w3-opacity">ตั้งอยู่ในอำเภอเบตง จังหวัดยะลา นอกจากทะเลหมอกอันเยอร์เวงที่ขึ้นชื่อแล้วยังมีจุดชมทะเลหมอกที่สวยงามอีกหลายแห่งหนึ่งในนั้น คือ ทะเลหมอกฆูนุงซีลีปัต  จุดชมทะเลหมอกสุดอลังการที่มองเห็นได้แบบ360องศาเป็นสายหมอกที่คลอเคลียงดงามตามไหล่เขาที่เรียงรายสลับซับซ้อน หันมองไปทางไหนก็จะเห็นแต่สายหมอกขาวจรดขอบฟ้าครามที่โอบกอดเราไว้ เรียกได้ว่าเป็นสุดยอดความงามที่สุดแห่งหนึ่งของเมืองไทย ที่สำคัญมีหมอกให้ชมได้ตลอดทั้งปีไม่ต้องรอให้ถึงหน้าหนาว.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/อัยยาเวง.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>อัยย์เวง</h3>
+          <p class="w3-opacity">"สกายวอล์ค ทะเลหมอกอัยเยอร์เวง” แลนด์มาร์คใหม่ อ.เบตง จ.ยะลา" สกายวอล์ค ทะเลหมอกอัยเยอร์เวง มีไฮไลท์สำคัญคือระเบียงทางเดินที่ยื่นออกไปจากฐานมีความยาวรวม 63เมตร ส่วนปลายเป็นระเบียงชมวิวพื้นกระจกใสที่สามารถมองทะลุลงไปได้ถึงพื้นเบื้องล่างซึ่งสร้างเสน่ห์สีสันและความตื่นเต้นให้กับนักท่องเที่ยว สกายวอล์คฯแห่งนี้ถือเป็นสถานที่ท่องเที่ยวและแลนด์มาร์คใหม่ของ อ.เบตง มีความโดดเด่นในเรื่องของการชมพระอาทิตย์ขึ้นรับแสงแรกยามเช้าตรู่ของวัน ควบคู่ไปกับการชมทะเลหมอกอันงดงาม ซึ่งสามารถเห็นทะเลหมอกได้ตลอดทั้งปี
+นอกจากนี้ก็ยังมีวิวทิวทัศน์ของผืนป่าฮาลา-บาลา ทะเลสาบเขื่อนบางลาง รวมถึงสามารถมองไปไกลได้ถึงประเทศมาเลเซีย</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/วัดคูหา.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>วัดคูหาภิมุข</h3>
+          <p class="w3-opacity">วัดคูหาภิมุข หรือ วัดหน้าถ้ำ เป็นวัดราษฎร์สังกัดคณะสงฆ์มหานิกาย ตั้งอยู่เลขที่ 136 หมู่ 1 บ้านหน้าถ้ำ ตำบลหน้าถ้ำ อำเภอเมืองยะลา จังหวัดยะลา พ.ศ. 2390 ผู้ใหญ่บ้านอาศัยอยู่ที่บ้านหน้าถ้ำ ได้สร้างวัดคูหาภิมุขเพื่อประกอบพิธีบำเพ็ญกุศลในหมู่บ้าน ภายในวัดคูหาภิมุขมีถ้ำใหญ่ ประดิษฐาน พระพุทธไสยาสน์ขนาดใหญ่ ภายในถ้ำ ยังมีหินงอกหินย้อย และน้ำใสสะอาดไหลริน จากโขดหิน วัดคูหาภิมุขเป็นวัดที่สำคัญของเมืองยะลามีพิพิธภัณฑ์ศรีวิชัยเก็บวัตถุโบราณที่ได้มาจากวัดถ้ำภูเขากำปั่น พระพิมพ์ดินดิบ สถูปเม็ดพระศก อิฐฐานพระพุทธรูป จอมพลแปลก พิบูลสงคราม เปลี่ยนชื่อ "วัดหน้าถ้ำ" เป็น "วัดคูหาภิมุข" พระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัวโปรดเกล้าฯ ให้พระยายะหริ่งมาสร้างเมืองยะลา ตั้งที่ว่าราชการ ณ บ้านท่าสาป ตำบลท่าสาป และสร้างวัดขึ้นที่ริมเขาหน้าถ้ำที่มีพระพุทธไสยาสน์ภายในถ้ำ</p>
+        </div>
+      </div>
+    </div>
+
+   <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/ยาลอ.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>พิพิธภัณฑ์เจ้าเมืองยาลอ</h3>
+          <p class="w3-opacity">พิพิธภัณฑ์เจ้าเมืองยาลอ หมู่ 1 ต.ยะลา อ.เมือง จ.ยะลา  รหัสไปรษณีย์ 95000 ตั้งอยู่ภายใน อบต.ยะลา เป็นแหล่งเรียนรู้และแหล่งท่องเที่ยวที่รวบรวมข้อมูล เอกสารหลักฐาน ภาพถ่าย โบราณวัตถุ ศิลปวัตถุ วัตถุที่มีคุณค่าทางอารยธรรม และศิลปวัฒนธรรมของท้องถิ่นตำบลยะลา ปัจจุบันอยู่ระหว่างการก่อสร้างให้เสร็จสมบูรณ์ ยังไม่เปิดให้ชมอย่างเป็นทางการ</p>
+        </div>
+      </div>
+    </div>
+
+   <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="photo/โกตาบารู.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>พิพิธภัณฑ์วัฒนธรรมโกตาบารู</h3>
+          <p class="w3-opacity">พิพิธภัณฑ์วัฒนธรรมโกตาบารู (บ้านดาโต๊ะมูลียอ) ก่อตั้งโดยนายต่วนอับดุลเลา ดาโอ๊ะมารียอ อดีตสมาชิกวุฒิสภา และนางซัมซีเยาะห์ ดาโอ๊ะมารียอ เปิดเป็นทางการเมื่อวันที่ 30 กรกฎาคม พ.ศ. 2561 เพื่อเป็นแหล่งเรียนรู้และแหล่งท่องเที่ยวนวัตวิถีทางประวัติศาสตร์และศิลปวัฒนธรรมท้องถิ่นแห่งใหม่ในพื้นที่งโกตาบารู - รามันห์ เมืองเก่าทางประวัติศาสตร์ พิพิธภัณฑ์วัฒนธรรมโกตาบารูอาศัยพื้นที่ภายในบ้านดาโอ๊ะมูลียอ จัดแสดงมุมเรียนรู้วิถีชีวิต และวัตถุโบราณต่างๆ แบ่งออกเป็นส่วนต่างๆ ได้แก่ เรือนต่วนจรือนิห์ หลวงศรีราชาบดินทร์ เป็นเรือนรับรองและแนะนำพิพิธภัณฑ์ ศาลาลงซัน เป็นมุมเรียนรู้ครัวจำลองแบบวิถีดั่งเดิม ศาลาซูงาโต๊ะนิ เป็นมุมจัดแสดงวัตถุพื้นบ้านในท้องถิ่น เรือนโกตารามัย เป็นมุมเรียนรู้ศิลปะวัฒนธรรมท้องถิ่นของเมืองโกตาบารู และสวนรัตนภักดี เป็นมุมเรียนรู้เชิงประวัติศาสตร์ของเมืองเก่าโกตาบารู ซึ่งทั้ง 5 มุมเรียนรู้นี้จัดแสดงโบราณวัตถุ ภาพถ่ายเก่า เอกสารเก่า ภาพวาด และของจำลอง โดยพิพิธภัณฑ์มุ่งเน้นที่จะให้เยาวชนในท้องถิ่นเห็นถึงความสำคัญถึงประวัติศาสตร์ และร่วมกันอนุรักษ์สิ่งที่ดีงามในท้องถิ่น เพื่อให้เกิดความสามัคคีปรองดอง นำความสันติสุขเกิดขึ้นในพื้นที่</p>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Footer</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+
+
+</body>
+</html>
